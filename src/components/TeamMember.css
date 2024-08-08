@@ -1,0 +1,38 @@
+/* TeamMember.css */
+
+.team-card {
+    background-color: #390d9c;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    flex: 1;
+        background: linear-gradient(145deg, #1B0066, #3500AA); /* Adjust colors as needed */
+        border-radius: 8px; /* Optional: Adjust the border radius to match your design */
+        padding: 20px; /* Adjust padding as needed */
+        margin-bottom: 20px; /* Ensure some space between cards */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a more polished look */
+
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .team-name {
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 10px;
+  }
+  
+  .team-title {
+    font-size: 1.1rem;
+    color: #f39c12;
+  }
+  

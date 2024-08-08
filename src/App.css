@@ -1,38 +1,122 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0e27;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 100px;
+  font-size: xx-large;
+  margin-top: -70px;
+  background-color: #070b2e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav .logo {
+  height: 200px;
+  padding-left: 30px;
+  width: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home.css */
+
+/* Styling for Home component */
+
+.welcome-container {
+  background-color: #1d1f33; /* Dark blue background */
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.welcome-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-text {
+  max-width: 800px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.welcome-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.welcome-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #5a2ff0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.welcome-button:hover {
+  background-color: #4831d4;
+}
+
+.welcome-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .welcome-section {
+    flex-direction: row;
+    text-align: left;
   }
-  to {
-    transform: rotate(360deg);
+
+  .welcome-text {
+    max-width: 600px;
+    margin-right: 50px;
+  }
+
+  .welcome-image {
+    max-width: 400px;
+    margin-top: 0;
   }
 }

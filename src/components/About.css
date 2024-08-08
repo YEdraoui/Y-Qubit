@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #0B0F29; /* Background color */
+  }
+  
+  .about-card {
+    background: linear-gradient(145deg, #1B0066, #3500AA); /* Gradient for each card */
+    border-radius: 15px;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 15px; /* Added space between the cards */
+  }
+  
+  blockquote {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .about-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .about-card p {
+    font-size: 1rem;
+    margin: 0;
+    color: #CCCCCC;
+  }
+  

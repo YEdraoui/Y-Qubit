@@ -1,0 +1,31 @@
+/* Team.css */
+
+.team-container {
+    padding: 50px;
+    background-color: #070b2e;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
