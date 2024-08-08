@@ -12,7 +12,7 @@ function Team() {
   const teamMembers = [
     {
       name: 'Yassir Edraoui',
-      title: 'CEO and Founder',
+      title: 'Founder and CEO',
       image: ceoImage, // Use the imported image
     },
     {
@@ -23,12 +23,12 @@ function Team() {
     {
       name: 'Aymane Khaldi',
       title: 'Software Developer',
-      image: Software1, // Ensure this path is correct
+      image: Software1,
     },
     {
       name: 'Yassine Boucham',
       title: 'Software Developer',
-      image: Software2, // Ensure this path is correct
+      image: Software2, 
     },
   ];
 
