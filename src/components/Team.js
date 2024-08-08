@@ -22,7 +22,7 @@ function Team() {
     },
     {
       name: 'Aymane Khaldi',
-      title: 'CTO',
+      title: 'Software Developer',
       image: Software1, // Ensure this path is correct
     },
     {
