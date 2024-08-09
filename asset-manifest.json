@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Y-Qubit/static/css/main.8224118d.css",
+    "main.js": "/Y-Qubit/static/js/main.451e5c4c.js",
+    "static/js/453.bb1ff1b9.chunk.js": "/Y-Qubit/static/js/453.bb1ff1b9.chunk.js",
+    "static/media/971.jpg": "/Y-Qubit/static/media/971.830851674489f1fb9abd.jpg",
+    "static/media/CEO.jpeg": "/Y-Qubit/static/media/CEO.93e95137b3cefd0eca66.jpeg",
+    "static/media/3.png": "/Y-Qubit/static/media/3.1dba84c6908edd41ab58.png",
+    "static/media/Software1.jpeg": "/Y-Qubit/static/media/Software1.e6b183c16b56afbb66cf.jpeg",
+    "index.html": "/Y-Qubit/index.html",
+    "main.8224118d.css.map": "/Y-Qubit/static/css/main.8224118d.css.map",
+    "main.451e5c4c.js.map": "/Y-Qubit/static/js/main.451e5c4c.js.map",
+    "453.bb1ff1b9.chunk.js.map": "/Y-Qubit/static/js/453.bb1ff1b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8224118d.css",
+    "static/js/main.451e5c4c.js"
+  ]
+}
