@@ -1,38 +1,36 @@
 /* TeamMember.css */
 
-.team-card {
-    background-color: #390d9c;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    margin: 10px;
-    flex: 1;
-        background: linear-gradient(145deg, #1B0066, #3500AA); /* Adjust colors as needed */
-        border-radius: 8px; /* Optional: Adjust the border radius to match your design */
-        padding: 20px; /* Adjust padding as needed */
-        margin-bottom: 20px; /* Ensure some space between cards */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a more polished look */
+:root {
+  --background-color: #070b2e; /* Dark blue background */
+  --text-color: #ffffff;       /* White text */
+  --accent-color: #ffd700;     /* Yellow accent color */
+}
 
-  }
-  
-  .team-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
-  .team-name {
-    font-size: 1.5rem;
-    color:white;
-    margin-bottom: 10px;
-  }
-  
-  .team-title {
-    font-size: 1.1rem;
-    color: #f39c12;
-  }
-  
+.team-member {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid var(--accent-color); /* Yellow border */
+  border-radius: 10px;
+  width: 250px;
+}
+
+.member-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-color); /* Yellow border around image */
+}
+
+.member-name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: var(--text-color); /* Ensures the name is white */
+}
+
+.member-title {
+  font-size: 1rem;
+  color: var(--accent-color); /* Yellow text for title */
+}

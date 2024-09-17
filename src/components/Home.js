@@ -11,8 +11,8 @@ function Home() {
       <div className="welcome-section">
         <div className="welcome-text">
           <h1>Welcome to Y-Qubit</h1>
-          <p>Y-Qubit is a team of passionate AI experts, researchers, and engineers dedicated to making a difference. Our diverse skills and experiences drive our innovative approach, and we share a common goal: unlocking AI's full potential for the benefit of society.</p>
-          <Link to="/services" className="welcome-button">Check our Services</Link>
+          <p>Y-Qubit is a team of AI experts, researchers, and engineers dedicated to making a difference. Our goal is unlocking AI's full potential for the benefit of society.</p>
+          <Link to="/services" className="welcome-button">Explore Our Services</Link>
         </div>
         <div className="welcome-image-container">
           <img src={welcomeImage} alt="Programming" className="welcome-image" />

@@ -18,7 +18,7 @@ function Team() {
     {
       name: 'Achraf Bachiri Taoufiq',
       title: 'CFO',
-      image: CFO, // Update the path to the image
+      image: CFO, // Use the imported image
     },
     {
       name: 'Aymane Khaldi',
@@ -28,7 +28,7 @@ function Team() {
     {
       name: 'Yassine Boucham',
       title: 'Software Developer',
-      image: Software2, 
+      image: Software2,
     },
   ];
 

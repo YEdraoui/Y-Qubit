@@ -1,31 +1,47 @@
 /* Team.css */
 
+:root {
+  --background-color: #070b2e; /* Dark blue background */
+  --text-color: #ffffff;       /* White text */
+  --title-color: #ffffff;      /* White title */
+  --accent-color: #ffd700;     /* Yellow accent color */
+}
+
 .team-container {
-    padding: 50px;
-    background-color: #070b2e;
-    color: white;
-    text-align: center;
-    margin-top: -100px;
-  }
-  
-  .team-title {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-    color: #fff;
-  }
-  
+  padding: 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  margin-top: -100px; /* Keeping the existing negative margin-top */
+  margin-bottom: 100px; /* Increased space between team section and footer */
+}
+
+.team-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: var(--title-color);
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .team-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .team-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+}
+.team-container {
+  padding: 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  /* Remove margin-top and use padding-top instead */
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
