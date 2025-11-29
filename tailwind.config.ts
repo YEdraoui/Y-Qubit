@@ -1,0 +1,128 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        heading: ['var(--font-poppins)'],
+      },
+      colors: {
+        purple: {
+          50: '#FAF5FF',
+          100: '#F3E8FF',
+          200: '#E9D5FF',
+          300: '#D8B4FE',
+          400: '#C084FC',
+          500: '#A855F7',
+          600: '#9333EA',
+          700: '#7E22CE',
+          800: '#6B21A8',
+          900: '#581C87',
+        },
+        blue: {
+          50: '#EFF6FF',
+          100: '#DBEAFE',
+          200: '#BFDBFE',
+          300: '#93C5FD',
+          400: '#60A5FA',
+          500: '#3B82F6',
+          600: '#2563EB',
+          700: '#1D4ED8',
+          800: '#1E40AF',
+          900: '#1E3A8A',
+        },
+        cyan: {
+          50: '#ECFEFF',
+          100: '#CFFAFE',
+          200: '#A5F3FC',
+          300: '#67E8F9',
+          400: '#22D3EE',
+          500: '#06B6D4',
+          600: '#0891B2',
+          700: '#0E7490',
+          800: '#155E75',
+          900: '#164E63',
+        },
+        violet: {
+          50: '#F5F3FF',
+          100: '#EDE9FE',
+          200: '#DDD6FE',
+          300: '#C4B5FD',
+          400: '#A78BFA',
+          500: '#8B5CF6',
+          600: '#7C3AED',
+          700: '#6D28D9',
+          800: '#5B21B6',
+          900: '#4C1D95',
+        },
+        fuchsia: {
+          50: '#FDF4FF',
+          100: '#FAE8FF',
+          200: '#F5D0FE',
+          300: '#F0ABFC',
+          400: '#E879F9',
+          500: '#D946EF',
+          600: '#C026D3',
+          700: '#A21CAF',
+          800: '#86198F',
+          900: '#701A75',
+        },
+        slate: {
+          50: '#F8FAFC',
+          100: '#F1F5F9',
+          200: '#E2E8F0',
+          300: '#CBD5E1',
+          400: '#94A3B8',
+          500: '#64748B',
+          600: '#475569',
+          700: '#334155',
+          800: '#1E293B',
+          900: '#0F172A',
+          950: '#020617',
+        },
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, #7C3AED, #3B82F6, #06B6D4)',
+        'gradient-secondary': 'linear-gradient(135deg, #A78BFA, #60A5FA, #22D3EE)',
+        'gradient-hover': 'linear-gradient(135deg, #6D28D9, #2563EB, #0891B2)',
+        'gradient-light': 'linear-gradient(135deg, #DDD6FE, #BFDBFE, #A5F3FC)',
+        'gradient-dark': 'linear-gradient(135deg, #0F172A, #581C87, #1E3A8A)',
+        'gradient-vibrant': 'linear-gradient(135deg, #8B5CF6, #D946EF, #3B82F6)',
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+        'gradient-flow': 'gradientFlow 15s ease infinite',
+        float: 'float 6s ease-in-out infinite',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        gradientFlow: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+        pulseGlow: {
+          '0%, 100%': { boxShadow: '0 0 20px rgba(139, 92, 246, 0.4)' },
+          '50%': { boxShadow: '0 0 30px rgba(139, 92, 246, 0.6), 0 0 40px rgba(217, 70, 239, 0.4)' },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
